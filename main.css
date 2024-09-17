@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: #c1ab84;
+    --mainfont : "Merriweather", serif;
+    --subfont: "Pacifico", cursive
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+
+}
+/*nav start*/
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    z-index: 999999999999999999999999;
+    background-color: rgba(255, 255, 255, 0.34);
+    color: black;
+}
+nav img{
+    width: 100px;
+    height: 100%;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .container{
+    display: flex;
+}
+nav .container .start{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 30%;
+}
+nav .container .end{
+    width: 30%;
+}
+.NavList{
+    width: 100%;
+}
+.NavList ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav .container .end{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/*nav end*/
+/*header start*/
+header{
+    background-image: url('img/head.jpeg');
+    height: 100vh;
+    background-size: cover;
+    
+}
+.Head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}
+.Head img{
+    width: 400px;
+    height: 200px;
+}
+.Head h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: var(--mainfont);
+
+}
+.Head p{
+    font-size: 20px;
+    font-family: var(--subfont);
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.buttons button{
+    padding: 15px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #c1ab84;
+}
+.buttons button:first-of-type{
+    background-color: #c1ab84;
+}
+/*header end*/
+/*footer start*/
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #353330;
+    color: #969690;
+}
+i{
+    color: #969690;
+}
+footer ul li{
+    border-bottom: 2px solid rgba(50,49, 49);
+}
+ul li:last-of-type{
+    border-bottom: none;
+}
+footer li a{
+    color: #969690;
+}
+footer h3{
+    color:white;
+}
+footer .MainFooter{
+    background-color: #403d38;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer .MainFooter .container{
+    display: flex;
+    justify-content: space-between;
+}
+.Sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sec ul{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.FooterSec4 ul li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.FooterSec4 img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    opacity: .9;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+.FooterSec1 , .FooterSec4{
+    width: 25%;
+}
+footer .SubFooter{
+    background-color: #353330;
+    display: flex;
+    justify-content: center;
+}
+footer .SubFooter .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+footer .SubFooter .container img{
+    width: 400px;
+    height: 200px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icons .icon{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: #484545;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.icons .icon i{
+    font-size: 40px;
+    color: #8c8a83;
+}
+/*footer end*/
+/*section one start*/
+.Info{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+
+.Info .container{
+    display: flex;
+    justify-content: center;
+}
+.InfoImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.DataInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+.DataInfo ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ce9a68;
+}
+.DataInfo li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.DataInfo ul li .item {
+    background-color:#c1ab84;
+    border-radius: 50%;
+    padding: 15px;
+}
+.DataInfo h2{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: var(--mainfont);
+}
+.DataInfo .Pa{
+    color: #c1ab84;
+    font-size: 25px;
+    font-family: var(--subfont);
+}
+.DataInfo .pa2{
+    font-family: var(--mainfont);
+    font-weight: 100;
+    color: #ce9a68;
+}
+/*section one end/
+/*section two start*/
+.InfoImgrev img{
+    width: 500px;
+    height: 400px;
+}
+.Review{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px ;
+    padding-bottom: 100px ;  
+    background-color: #f8f8f8;
+}
+.Review .InfoImgrev{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Review .container{
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+.DataInfoRev{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.DataInfoRev ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ce9a68;
+}
+.DataInfoRev li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.DataInfoRev ul li .item {
+    padding: 10px;
+}
+.DataInfoRev h2{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: var(--mainfont);
+}
+.DataInfoRev .Pa{
+    color: #c1ab84;
+    font-size: 25px;
+    font-family: var(--subfont);
+}
+.DataInfoRev .pa2{
+    font-family: var(--mainfont);
+    font-weight: 100;
+    font-size: 15px;
+    color: #ce9a68;
+}
+/*section two end*/
+/*section three start*/
+.Image{
+    background-image: url('img/sec3.jpg');
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*section three end*/
+/*section four start*/
+.Sec4{
+    background-color: #f8f8f8;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.Sec4 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+}
+.Sec4 .container .Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Sec4 .container .Info h1{
+    font-family: var(--mainfont);
+    font-weight: 100;
+    font-size: 30px;
+}
+.Sec4 .container .Info h3{
+    font-family: var(--subfont);
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--maincolor);
+}
+.Sec4 .container .Menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+    width: 1000px;
+    text-align: center;
+    gap: 10px;
+}
+.Sec4 .dish{
+    width: 320px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sec4 .dish h2{
+    font-family: var(--mainfont);
+    font-size: 17px;
+    font-weight: 200;
+}
+.Sec4 .container .dish p{
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-family: var(--mainfont);
+    font-weight: 100;
+    font-size: 13px;
+    color: gray;
+}
+.MenuImg img{
+    width: 300px;
+    height: 250px;
+}
+.LastButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.LastButton button{
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: var(--maincolor);
+    color: white;
+    font-family: var(--mainfont);
+    cursor: pointer;
+}
+
+/*section four end*/
+/*section five start*/
+.Sec5{
+    background-image: url('img/head.jpeg');
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.Sec5 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-top: 20px;
+}
+.Sec5 .firsticon i{
+    color: white;
+    display: flex;
+    font-size: 40px;
+}
+.Sec5 .Info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    align-items: center;
+
+}
+.Sec5 h2{
+    font-family: var(--mainfont);
+    font-weight: 200;
+    font-size: 30px;
+}
+.Sec5 p{
+    font-family: var(--mainfont);
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.Sec5 h4{
+    font-weight: 50;
+    font-size: 20px;
+}
+.LastIcons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+    
+}
+.LastIcons .icon{
+    height: 30px;
+    width:30px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    border-color: rgba(255,255,255,.7);
+    text-align: center;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: rgba(255,255,255,.7);
+    background: none;
+}
+.LastIcons .icon:hover{
+    background-color: white;
+}
+/*section five end*/
